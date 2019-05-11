@@ -1,0 +1,173 @@
+body {
+  margin: 0 auto;
+  max-width: 1260px;
+}
+body a.arrowDown {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fc645f;
+  border: 1px solid #fc645f;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+body a.arrowDown:hover {
+  color: white;
+  background: #fc645f;
+}
+body a.btn {
+  color: #fc645f;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 12px 28px;
+  border: 1px solid #fc645f;
+  border-radius: 8px;
+}
+body a.btn:hover {
+  background: #fc645f;
+  color: white;
+}
+body .title {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: white;
+}
+body span {
+  color: #fc645f;
+}
+body .mainText {
+  text-align: center;
+}
+body .mainText p {
+  color: white;
+  font-size: 22px;
+}
+body header {
+  background: url(../img/bg.png) no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  width: 100%;
+  max-width: 1260px;
+  justify-content: space-around;
+}
+body header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header nav > a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+body header nav > a img {
+  padding-right: 15px;
+  vertical-align: middle;
+}
+body header nav .logo:hover img {
+  opacity: 0.7;
+}
+body header nav menu {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+}
+body header nav menu ul {
+  display: flex;
+  list-style-type: none;
+}
+body header nav menu ul li {
+  padding-left: 15px;
+}
+body header nav menu ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+body header nav menu ul li a:hover {
+  color: #fc645f;
+  border-bottom: 5px solid #fc645f;
+  padding-bottom: 3px;
+}
+body .services {
+  text-align: center;
+  margin-top: 0;
+  background: white;
+  color: #868686;
+  padding: 70px 50px 10px 50px;
+}
+body .services .services__title {
+  text-decoration: underline;
+  color: #868686;
+}
+body .services .services__title .services__title_description {
+  margin-bottom: 50px;
+}
+body .services .icons {
+  display: flex;
+}
+body .services .icons h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+body .services .icons p {
+  font-size: 18px;
+}
+body .services .icons div {
+  padding: 15px;
+}
+body .expand {
+  padding: 50px 150px 15px 150px;
+  background: url(../img/expend.png) no-repeat;
+  /*min-height: 576px;*/
+}
+body .expand .mainText {
+  padding: 50px;
+  margin-bottom: 100px;
+  border: 10px solid rgba(0, 0, 0, 0.5);
+}
+body .expand .mainText .expand__title {
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+body .our__process {
+  text-align: center;
+  padding: 0 10px 15px 10px;
+}
+body .our__process .steps {
+  display: none;
+}
+body .our__process .steps .steps__title {
+  color: #868686;
+  font-size: 25px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+body .our__process .steps .steps__title_description {
+  font-size: 18px;
+  color: #868686;
+  margin: 10px 0;
+}
+body .our__process .our__process_title {
+  color: #868686;
+  text-decoration: underline;
+}
+body .our__process .our__process_description {
+  color: #868686;
+  font-size: 18px;
+}
+body .our__process .our__process_image {
+  min-width: auto;
+  min-height: 500px;
+  background-image: url(../img/our_process.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
