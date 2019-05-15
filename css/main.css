@@ -171,3 +171,51 @@ body .our__process .our__process_image {
   background-size: contain;
   background-repeat: no-repeat;
 }
+body .wedo__landing {
+  padding: 30px 150px 15px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+body .wedo__landing .wedo__landing_title {
+  color: #868686;
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
+body .wedo__landing .wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+body .wedo__landing .wrapper .left {
+  max-width: 50%;
+}
+body .wedo__landing .wrapper .left .left__title {
+  font-size: 28px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-left: 17px;
+  font-weight: normal;
+  color: #868686;
+}
+body .wedo__landing .wrapper .left .left__text {
+  color: #868686;
+  padding-bottom: 35px;
+  font-size: 15px;
+}
+body .wedo__landing .wrapper .right {
+  max-width: 50%;
+}
+body .background {
+  background: white;
+}
+body .wedo__landing .wrapper2 .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  order: 1;
+}
+body .wedo__landing .wrapper2 .right {
+  order: 0;
+}
